@@ -3,18 +3,18 @@
 }
 
 .place__paragraph:first-of-type {
-   margin-top: 0; 
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraph {
-      margin-top: 25px;
-    }  
+  .place__paragraph {
+    margin-top: 25px;
   }
+}
 
-  @media screen and (max-width: 767px) {
-    .place__paragraph {
-      margin-left: 16px;
-      margin-right: 16px;
-    }
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
   }
+}

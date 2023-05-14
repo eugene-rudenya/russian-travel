@@ -1,18 +1,18 @@
 .page__cover-margin {
-    margin-top: 92px;
-    margin-bottom: 92px;
+  margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
-    .page__cover-margin {
-      margin-top: 90px;
-      margin-bottom: 88px;
-    }  
+  .page__cover-margin {
+    margin-top: 90px;
+    margin-bottom: 88px;
   }
+}
 
 @media screen and (max-width: 767px) {
-    .page__cover-margin {
-      margin-top: 66px;
-      margin-bottom: 64px;
-    }  
+  .page__cover-margin {
+    margin-top: 66px;
+    margin-bottom: 64px;
   }
+}

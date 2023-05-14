@@ -9,12 +9,13 @@
   background: url(../../../images/cover-trains.jpg) no-repeat 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  text-decoration: none; 
-  position: relative; 
+  text-decoration: none;
+  position: relative;
 }
 
 .cover__overlay:before {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #2A2C2F;
+  opacity: 0.3;
   transition: background-color .3s;
   content: '';
   display: block;
@@ -26,11 +27,12 @@
 }
 
 .cover__overlay:hover:before {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #2A2C2F;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
-    .cover__overlay {
-      width: 100%;
-    }  
+  .cover__overlay {
+    width: 100%;
   }
+}

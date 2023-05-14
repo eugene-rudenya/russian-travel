@@ -1,20 +1,20 @@
 .intro {
-    padding-top: 92px;
-    max-width: 690px;
-    font-family: 'Inter';
-    color: white;
+  padding-top: 92px;
+  max-width: 984px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFF;
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     padding-top: 88px;
     max-width: 720px;
-  }  
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .intro {
-      padding-top: 64px;
-      max-width: 288px;
-    }  
+  .intro {
+    padding-top: 64px;
+    max-width: 288px;
   }
+}
